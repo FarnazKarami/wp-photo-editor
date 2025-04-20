@@ -1,0 +1,27 @@
+.wppe-toolbar {
+  margin: 10px 0;
+}
+
+.wppe-toolbar button {
+  margin: 0 5px;
+  padding: 8px 14px;
+  background-color: #007cba;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.3s ease;
+}
+
+.wppe-toolbar button:hover {
+  background-color: #005f8d;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
